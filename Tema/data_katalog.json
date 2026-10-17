@@ -2,14 +2,14 @@
     {
         "id": "aster",
         "title": "Aster",
-        "badge": "",
+        "badge": "BEST SELLER",
         "waNumber": "6285745919666",
         "variations": [
             {
                 "name": "Maron",
                 "colorCode": "#803c3b",
-                "image": "../Img/Aster_Maron.jpg",
-                "previewUrl": "https://namadomaindemo.com/aster-maron", 
+                "image": "Img/Aster_Maron.jpg",
+                "previewUrl": "https://webinvite.rf.gd/demo/aster-maron",
                 "price": "Rp. 150.000",
                 "oldPrice": "Rp. 300.000",
                 "discount": "Disc 50%"
@@ -17,11 +17,37 @@
             {
                 "name": "Blue",
                 "colorCode": "#2d438e",
-                "image": "../Img/Aster_Blue.jpg",
-                "previewUrl": "https://namadomaindemo.com/aster-blue",
+                "image": "Img/Aster_Blue.jpg",
+                "previewUrl": "https://webinvite.rf.gd/demo/aster-blue",
                 "price": "Rp. 150.000",
                 "oldPrice": "Rp. 300.000",
                 "discount": "Disc 50%"
+            }
+        ]
+    },
+    {
+        "id": "tema-alam",
+        "title": "SERIES ALAM",
+        "badge": "POPULER",
+        "waNumber": "6285745919666",
+        "variations": [
+            {
+                "name": "Alam Biru",
+                "colorCode": "#0613B2",
+                "image": "https://placehold.co/600x400/0613B2/FFFFFF?text=Alam+Biru",
+                "previewUrl": "https://webinvite.rf.gd/demo/alam-biru",
+                "price": "Rp. 150.000",
+                "oldPrice": "Rp. 300.000",
+                "discount": "Disc 50%"
+            },
+            {
+                "name": "Alam Hijau",
+                "colorCode": "#0CA63F",
+                "image": "https://placehold.co/600x400/0CA63F/FFFFFF?text=Alam+Hijau",
+                "previewUrl": "https://webinvite.rf.gd/demo/alam-hijau",
+                "price": "Rp. 210.000",
+                "oldPrice": "Rp. 300.000",
+                "discount": "Disc 30%"
             }
         ]
     }
