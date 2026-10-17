@@ -41,7 +41,7 @@ function renderKatalog() {
                 </div>
 
                 <div>
-                    <div class="relative w-full h-56 bg-slate-100 overflow-hidden">
+                    <div class="relative w-full aspect-square bg-slate-100 overflow-hidden"">
                         <img id="img-${itemIdx}" 
                              src="${currentVar.image}" 
                              alt="${currentVar.name}" 
