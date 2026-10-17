@@ -1,34 +1,26 @@
 [
     {
-        "id": "tema-maron",
-        "title": "MARON SERIES",
-        "badge": "TEMA BEST",
+        "id": "aster",
+        "title": "Aster",
+        "badge": "",
         "waNumber": "6285745919666",
         "variations": [
             {
-                "name": "Maron Red",
-                "colorCode": "#800000",
-                "image": "https://placehold.co/600x400/800000/FFFFFF?text=Maron+Red+Theme",
+                "name": "Maron",
+                "colorCode": "#803c3b",
+                "image": "../Img/Aster_Maron.jpg",
                 "price": "Rp. 150.000",
                 "oldPrice": "Rp. 300.000",
                 "discount": "Disc 50%"
             },
             {
-                "name": "Maron Navy",
-                "colorCode": "#1B365D",
-                "image": "https://placehold.co/600x400/1B365D/FFFFFF?text=Maron+Navy+Theme",
-                "price": "Rp. 160.000",
+                "name": "Blue",
+                "colorCode": "#2d438e",
+                "image": "../Img/Aster_Blue.jpg",
+                "price": "Rp. 150.000",
                 "oldPrice": "Rp. 300.000",
-                "discount": "Disc 46%"
+                "discount": "Disc 50%"
             },
-            {
-                "name": "Maron Gold",
-                "colorCode": "#B49401",
-                "image": "https://placehold.co/600x400/B49401/FFFFFF?text=Maron+Gold+Theme",
-                "price": "Rp. 175.000",
-                "oldPrice": "Rp. 300.000",
-                "discount": "Disc 41%"
-            }
         ]
     },
     {
