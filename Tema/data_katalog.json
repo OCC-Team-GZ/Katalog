@@ -1,0 +1,58 @@
+[
+    {
+        "id": "tema-maron",
+        "title": "MARON SERIES",
+        "badge": "TEMA BEST",
+        "waNumber": "6285745919666",
+        "variations": [
+            {
+                "name": "Maron Red",
+                "colorCode": "#800000",
+                "image": "https://placehold.co/600x400/800000/FFFFFF?text=Maron+Red+Theme",
+                "price": "Rp. 150.000",
+                "oldPrice": "Rp. 300.000",
+                "discount": "Disc 50%"
+            },
+            {
+                "name": "Maron Navy",
+                "colorCode": "#1B365D",
+                "image": "https://placehold.co/600x400/1B365D/FFFFFF?text=Maron+Navy+Theme",
+                "price": "Rp. 160.000",
+                "oldPrice": "Rp. 300.000",
+                "discount": "Disc 46%"
+            },
+            {
+                "name": "Maron Gold",
+                "colorCode": "#B49401",
+                "image": "https://placehold.co/600x400/B49401/FFFFFF?text=Maron+Gold+Theme",
+                "price": "Rp. 175.000",
+                "oldPrice": "Rp. 300.000",
+                "discount": "Disc 41%"
+            }
+        ]
+    },
+    {
+        "id": "tema-alam",
+        "title": "SERIES ALAM",
+        "badge": "POPULER",
+        "waNumber": "6285745919666",
+        "variations": [
+            {
+                "name": "Alam Biru",
+                "colorCode": "#0613B2",
+                "image": "https://placehold.co/600x400/0613B2/FFFFFF?text=Alam+Biru",
+                "price": "Rp. 150.000",
+                "oldPrice": "Rp. 300.000",
+                "discount": "Disc 50%"
+            },
+            {
+                "name": "Alam Hijau",
+                "colorCode": "#0CA63F",
+                "image": "https://placehold.co/600x400/0CA63F/FFFFFF?text=Alam+Hijau",
+                "price": "Rp. 210.000",
+                "oldPrice": "Rp. 300.000",
+                "discount": "Disc 30%"
+            }
+        ]
+    }
+]
