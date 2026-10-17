@@ -36,17 +36,19 @@ function renderKatalog() {
 
         const cardHTML = `
             <div class="bg-white rounded-2xl overflow-hidden border border-slate-200 card-shadow flex flex-col justify-between relative">
+                ${item.badge ? `
                 <div class="absolute top-3 left-3 z-10 bg-red-600 text-white text-[10px] font-bold px-2.5 py-1 rounded-md shadow-md uppercase tracking-wider">
                     ${item.badge}
-                </div>
+                </div>` : ''}
 
                 <div>
-                    <div class="relative w-full aspect-square bg-slate-100 overflow-hidden"">
+                    <!-- Kotak Gambar dengan aspek rasio 1:1 -->
+                    <div class="relative w-full aspect-square bg-slate-100 overflow-hidden">
                         <img id="img-${itemIdx}" 
                              src="${currentVar.image}" 
                              alt="${currentVar.name}" 
                              class="w-full h-full object-cover transition-all duration-300 transform hover:scale-105"
-                             onerror="this.onerror=null;this.src='https://placehold.co/600x400/333333/FFFFFF?text=Preview+Gambar';"
+                             onerror="this.onerror=null;this.src='https://placehold.co/600x400/333333/FFFFFF?text=Gambar+Tidak+Ditemukan';"
                         />
                     </div>
 
@@ -90,7 +92,7 @@ function renderKatalog() {
                 </div>
 
                 <div class="p-5 pt-0 space-y-2">
-                    <button onclick="previewTheme('${currentVar.name}', '${currentVar.image}')" 
+                    <button onclick="previewTheme('${currentVar.previewUrl}')" 
                             class="w-full py-2.5 px-4 rounded-xl border border-slate-300 text-slate-700 font-semibold text-sm hover:bg-slate-50 transition-colors flex items-center justify-center gap-2">
                         <i class="fa-regular fa-eye"></i> Lihat Tema
                     </button>
@@ -132,8 +134,13 @@ function changeVariant(itemIndex, variantIndex) {
     renderKatalog();
 }
 
-function previewTheme(title, imgUrl) {
-    alert(`Membuka preview untuk: ${title}`);
+// Fungsi untuk membuka link preview tema di tab baru
+function previewTheme(url) {
+    if (url && url !== "undefined") {
+        window.open(url, '_blank');
+    } else {
+        alert("Link preview belum tersedia untuk tema ini.");
+    }
 }
 
 // Jalankan pengambilan data saat halaman dibuka
