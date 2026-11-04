@@ -168,7 +168,7 @@
                 const currentVar = item.variations[item.activeVariantIndex];
                 
                 // Encode WhatsApp Text
-                const waMessage = encodeURIComponent(`Halo Kak, saya mau pesan tema undangan: *${item.title}* (Varian: *${currentVar.name}*) harga ${currentVar.price}`);
+                const waMessage = encodeURIComponent(`Halo Kak, saya mau pesan tema undangan: *${item.title}* (Varian: *${currentVar.name}*)`);
                 const waUrl = `https://wa.me/${item.waNumber}?text=${waMessage}`;
 
                 // HTML Structure Card
